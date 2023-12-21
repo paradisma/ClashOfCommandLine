@@ -199,6 +199,7 @@ class FighterBase:
         lvl_str = f"Lvl: {self.current_level}"
 
         print(self.ascii_representation)
+        print(self.name)
         print(f"{health_str}\t{xp_str}")
         print(f"{stamina_str}\t{lvl_str}")
 
